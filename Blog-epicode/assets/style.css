@@ -1,0 +1,125 @@
+nav  ul li , nav p, nav a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+main p, h1, h2, h3, h4, li {
+    font-family: "Poppins", sans-serif;
+    font-style: auto;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+thead {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+     border-spacing: 1px ;}
+/* tr:hover {background-color: #d3d3d3;} */
+tr {background-color: rgb(255, 255, 255);
+text-align: center;}
+tr:nth-child(odd) {background-color: rgb(239, 239, 255);}
+td { vertical-align: top; padding: 10px}
+th {padding: 10px;}
+#testata {background-color: white;}
+#prima-riga {background-color: rgb(97, 99, 202);
+color:white;}
+
+p b {
+    color: blueviolet;
+}
+li b {
+    font-weight: normal;
+    background-color: rgb(222, 222, 222);
+    border: 2px solid rgb(205, 205, 205);
+    border-radius: 5px;
+}
+
+#fonte {
+    font-family: "Poppins", sans-serif;
+    font-style: auto;
+    font-weight: 550;
+    color: rgba(105, 105, 105, 0.546);
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+background: url(/Blog-epicode/assets/img/sfondo.png)
+}
+
+header {
+    /* border: 3px solid blue; */
+    width: 100%;
+    padding: 31px 50px;
+    margin-top: 27px;
+     background-image: linear-gradient(
+          to bottom,
+          rgb(54, 134, 174),
+          rgb(35, 100, 133)
+        );
+        box-shadow: 1px 2px 8px 1px #666
+    }
+#logo {
+        display: flex;
+    justify-self: center;
+}
+
+main {
+    /* border: solid blue; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;   
+    box-shadow: 1px 2px 8px 1px #666;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding-inline-start: 0%;
+}
+p a { color: cornflowerblue;}
+h1 {text-align: center;}
+#newsletter {
+    box-shadow: 0px 10px 15px -3px rgba(86, 86, 86, 0.1);
+    background-color: #dde5f1;
+    padding: 20px;
+    margin: 0px;    
+}
+button {
+    background-color:  rgb(97, 99, 202)
+}
+button {
+    color: #dde5f1;
+    font-weight: bold;
+}
+#email{
+    opacity: 80%;
+    border: none;
+}
+.Articoli { padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(217, 216, 224);   
+    /* box-shadow: 1px 2px 8px 1px #666; */
+    margin-top: 20px;}
