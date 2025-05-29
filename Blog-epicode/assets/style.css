@@ -7,7 +7,7 @@ nav  ul li , nav p, nav a {
   text-decoration: none;
 }
 
-main p, h1, h2, h3, h4, li {
+main p, h1, h2, h3, h4, li, footer {
     font-family: "Poppins", sans-serif;
     font-style: auto;
     font-weight: 500;
@@ -118,8 +118,31 @@ button {
     opacity: 80%;
     border: none;
 }
-.Articoli { padding-left: 20px;
+.Articoli { 
+    padding-top: 2px;
+    padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(217, 216, 224);   
-    /* box-shadow: 1px 2px 8px 1px #666; */
+    background-color: rgb(236, 236, 238);   
+    box-shadow: 1px 2px 4px 1px #cfcfcf;
     margin-top: 20px;}
+.data {
+    text-align: right;
+}
+footer {padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+  background-image: linear-gradient(
+          to bottom,
+          rgb(54, 134, 174),
+          rgb(35, 100, 133)
+        );   
+    box-shadow: 1px 2px 4px 1px #cfcfcf;
+    margin-top: 20px; 
+margin-bottom: 20px;}
+footer {
+    color: white;
+    text-align: center;
+}
+footer a {
+    color:rgb(206, 0, 206);
+}
